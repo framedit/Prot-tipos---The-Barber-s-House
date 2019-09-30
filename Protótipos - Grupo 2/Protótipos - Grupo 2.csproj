@@ -46,6 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cortes\AlterarCorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cortes\AlterarCorte.Designer.cs">
+      <DependentUpon>AlterarCorte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cortes\ConsultarCortesPorID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cortes\ConsultarCortesPorID.Designer.cs">
+      <DependentUpon>ConsultarCortesPorID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cortes\ListarCortes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cortes\ListarCortes.Designer.cs">
+      <DependentUpon>ListarCortes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cortes\NovoCorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cortes\NovoCorte.Designer.cs">
+      <DependentUpon>NovoCorte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cortes\RemoverCorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cortes\RemoverCorte.Designer.cs">
+      <DependentUpon>RemoverCorte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fornecedor\AlterarFornecedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +144,18 @@
     <Compile Include="Serviços\AlterarServiço.Designer.cs">
       <DependentUpon>AlterarServiço.cs</DependentUpon>
     </Compile>
+    <Compile Include="Serviços\ConsultarServiçosPorID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Serviços\ConsultarServiçosPorID.Designer.cs">
+      <DependentUpon>ConsultarServiçosPorID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Serviços\ListarServiços.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Serviços\ListarServiços.Designer.cs">
+      <DependentUpon>ListarServiços.cs</DependentUpon>
+    </Compile>
     <Compile Include="Serviços\NovoServiço.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +168,21 @@
     <Compile Include="Serviços\RemoverServiço.Designer.cs">
       <DependentUpon>RemoverServiço.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Cortes\AlterarCorte.resx">
+      <DependentUpon>AlterarCorte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cortes\ConsultarCortesPorID.resx">
+      <DependentUpon>ConsultarCortesPorID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cortes\ListarCortes.resx">
+      <DependentUpon>ListarCortes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cortes\NovoCorte.resx">
+      <DependentUpon>NovoCorte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cortes\RemoverCorte.resx">
+      <DependentUpon>RemoverCorte.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Fornecedor\AlterarFornecedor.resx">
       <DependentUpon>AlterarFornecedor.cs</DependentUpon>
     </EmbeddedResource>
@@ -168,6 +225,12 @@
     <EmbeddedResource Include="Serviços\AlterarServiço.resx">
       <DependentUpon>AlterarServiço.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Serviços\ConsultarServiçosPorID.resx">
+      <DependentUpon>ConsultarServiçosPorID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Serviços\ListarServiços.resx">
+      <DependentUpon>ListarServiços.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Serviços\NovoServiço.resx">
       <DependentUpon>NovoServiço.cs</DependentUpon>
     </EmbeddedResource>
@@ -186,6 +249,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fluxo de Caixa\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

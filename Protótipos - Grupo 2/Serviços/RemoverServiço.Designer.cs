@@ -55,7 +55,7 @@
             this.groupBox2.Size = new System.Drawing.Size(251, 54);
             this.groupBox2.TabIndex = 18;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Escolha seu Produto";
+            this.groupBox2.Text = "Escolha seu Serviço";
             // 
             // comboBox2
             // 
@@ -80,7 +80,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(251, 23);
             this.button1.TabIndex = 17;
-            this.button1.Text = "Salvar";
+            this.button1.Text = "Remover Serviço";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // groupBox1
